@@ -1,0 +1,28 @@
+<article ng-controller="GameController">
+    <div class="gamecontainer" style="text-align: center">
+
+        <div class="row"><div class="column">&nbsp;</div></div>
+        <div class="row"><div class="column">&nbsp;</div></div>
+        <div class="row"><div class="column">&nbsp;</div></div>
+        <div class="row"><div class="column">&nbsp;</div></div>
+        <div class="row"><div class="column">&nbsp;</div></div>
+
+        <div class="wordbuttons">
+            <div>
+                <button ng-click="speaker()" type='button'>Word</button>
+            </div>
+
+            <div>
+                <button ng-click="repeat()" type='button'>Repeat</button>
+            </div>
+        </div>
+
+        <div class="wordfield">
+            <input type="text" id="speltword" ng-model="speltword" name="speltword" placeholder="Enter the word you just heard and click enter.">
+        </div>
+
+        <div>
+            <button ng-click="check()" type='button'>Check</button>
+        </div>
+    </div>
+</article>

@@ -1,0 +1,89 @@
+<main class="main bg-white" ng-controller="NewGuysController">
+    <div id="loader" ng-show="!tracksloaded"></div>
+    <section class="is-onboarding" ng-show="tracksloaded">
+        <div class="pos-rel background-is-filtered black-filtering">
+            <div>
+                <!--<div class="titlebig">-->
+                    <!--Feeling like learning while having fun?-->
+                <!--</div>-->
+                <!--<div class="titlesmall">-->
+                    <!--Take a look at a list of games that can help you in becoming, well, a better you.-->
+                <!--</div>-->
+
+                <!--<div class="gameslist">-->
+                    <!--<a class="game spelling" ui-sref="spell">-->
+                        <!--Listen and Spell-->
+                    <!--</a>-->
+
+                    <!--<div class="game scrabble">-->
+                        <!--Word Porn-->
+                    <!--</div>-->
+
+                    <!--<div class="unscramble">-->
+                        <!--Unscramble-->
+                    <!--</div>-->
+
+                    <!--<div class="game history">-->
+                        <!--History-->
+                    <!--</div>-->
+                <!--</div>-->
+            <img src="../assets/uploads/onboarding.jpg" alt="" class="featured-image-desktop ">
+        </div>
+        </div>
+        <div class="pos-rel">
+            <section class="background-is-filtered black-filtering">
+                <img src="../assets/uploads/onboarding.jpg" alt="" class="featured-image-mobile ">
+            </section>
+
+            <section class="maxwidth-500 mx-auto wrapper microtext onboarding-content"><img src="../assets/uploads/bookier.png" alt="bookier logo" class="logo-onboarding mx-auto">
+                <p class="nanotext tx-c mb-2 ff-heading">Learning Re-Imagined</p>
+                <p class="smalltext pb-1 tx-c m-0">Choose tracks you're interested in.</p><ul class="none m-0 d-flx flx-wrap j-c-center">
+                    <li class="al-i-c d-flx">
+                        <input type="checkbox" class="form-checkbox" id="all">
+                        <label for="all" class="co-primary no-tt checkbox-label">All</label>
+                    </li>
+                    <li class="al-i-c d-flx">
+                        <input type="checkbox" class="form-checkbox" id="art">
+                        <label for="art" class="co-primary no-tt checkbox-label">Art</label>
+                    </li>
+                    <li class="al-i-c d-flx">
+                        <input type="checkbox" class="form-checkbox" id="business">
+                        <label for="business" class="co-primary no-tt checkbox-label">Business</label>
+                    </li>
+                    <li class="al-i-c d-flx">
+                        <input type="checkbox" class="form-checkbox" id="check-one">
+                        <label for="check-one" class="co-primary no-tt checkbox-label">Computing</label>
+                    </li>
+                    <li class="al-i-c d-flx">
+                        <input type="checkbox" class="form-checkbox" id="crafts">
+                        <label for="crafts" class="co-primary no-tt checkbox-label">Crafts</label>
+                    </li>
+                    <li class="al-i-c d-flx">
+                        <input type="checkbox" class="form-checkbox" id="data">
+                        <label for="data" class="co-primary no-tt checkbox-label">Data Science</label>
+                    </li>
+                    <li class="al-i-c d-flx">
+                        <input type="checkbox" class="form-checkbox" id="engineering">
+                        <label for="engineering" class="co-primary no-tt checkbox-label">Engineering</label>
+                    </li>
+                    <li class="al-i-c d-flx">
+                        <input type="checkbox" class="form-checkbox" id="humanities">
+                        <label for="humanities" class="co-primary no-tt checkbox-label">Humanities</label>
+                    </li>
+                    <li class="al-i-c d-flx">
+                        <input type="checkbox" class="form-checkbox" id="info-tech">
+                        <label for="info-tech" class="co-primary no-tt checkbox-label">Information Technology</label>
+                    </li>
+                    <li class="al-i-c d-flx">
+                        <input type="checkbox" class="form-checkbox" id="language">
+                        <label for="language" class="co-primary no-tt checkbox-label">Languages</label>
+                    </li>
+                    <li class="al-i-c d-flx">
+                        <input type="checkbox" class="form-checkbox" id="life-sciences">
+                        <label for="life-sciences" class="co-primary no-tt checkbox-label">Life Sciences</label>
+                    </li>
+                </ul><div class = "d-flx al-i-c j-c-sb mt-2h" style="justify-content: flex-end;"><button class="btn btn-standard btn-dark p-0 width-100-pc py-1 microtext" ui-sref="newguys">Continue</button></div>
+            </section>
+        </div>
+    </section>
+</main>

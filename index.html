@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html ng-app="MainModule">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#ffbd4a">
+
+    <title>Bookier</title>
+
+    <script src="lib/angular/angular.js"></script>
+    <script src="lib/angular/angular-ui-router.js"></script>
+    <script src="lib/angular/angular-cookies.js"></script>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link href="assets/css/MuktaMahee-Regular.ttf">
+
+    <link rel="stylesheet" href="lib/typekit/typekit.css">
+    <link rel="stylesheet" href="lib/typekit/uikit.css" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="assets/css/styletwo.css" rel="stylesheet" />
+
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/controllers.js"></script>
+
+    <script src="lib/typekit/responsivevoice.js"></script>
+
+</head>
+
+<body id="mainPage" ng-controller="MainController">
+<div id="loader" ng-if="!pageloaded">
+</div>
+<ui-view>
+    <main id="main" ng-if="pageloaded">
+        <div class="row"><div class="column">&nbsp;</div></div>
+        <div class="row"><div class="column">&nbsp;</div></div>
+        <div class="row"><div class="column">&nbsp;</div></div>
+        <div class="row"><div class="column">&nbsp;</div></div>
+        <div class="row"><div class="column">&nbsp;</div></div>
+
+        <div class="buttongroup">
+            <div>
+                <a class="" href="" ui-sref="register">
+                    For Students
+                </a>
+            </div>
+            <div class="">
+                <a class="" href="" >
+                    For Organizations
+                </a>
+            </div>
+        </div>
+    </main>
+</ui-view>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.10/js/uikit.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.10/js/uikit-icons.min.js"></script>
+</body>
+</html>
